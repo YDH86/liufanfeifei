@@ -31,7 +31,7 @@ var barbette = function(){
     if( fruits.length >= volleyNum )
         return ;
 
-    var startX = random( 640 ), endX = random( 640 ), startY = 600;
+    var startX = random( 240 ), endX = random( 240 ), startY = 600;
     var f = fruit.create( startX, startY ).shotOut( 0, endX );
 
     fruits.push( f );
